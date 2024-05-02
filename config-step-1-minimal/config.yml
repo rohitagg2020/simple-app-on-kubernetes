@@ -4,6 +4,8 @@ kind: Service
 metadata:
   namespace: default
   name: simple-app
+  annotations:
+    kapp.k14s.io/versioned: ""
 spec:
   ports:
   - port: 80
